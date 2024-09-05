@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-gray-100">
+    <section id="booking page">
+    <div class="container mx-auto p-6">
+    </div>
+    <div class="container mx-auto p-6">
+        <div class="animation">
+            <h1 id="h1" class="text-3xl font-bold text-center mb-2 text-decoration-underline">Let’s Get this party
+                started.</h1>
+
+        </div>
+        <p id="p1" class="text-center mt-1 mb-4">For event inquiries, please fill out the form below and one of our team
+            members will get back to you within 48 hours.</p>
+        <form action="#" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    Name
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name" type="text" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email" type="email" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
+                    Event Date
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="date" type="date">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="event_type">
+                    Event Type
+                </label>
+                <select
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="event_type">
+                    <option value="birthday">Birthday Party</option>
+                    <option value="photography">Photography Session</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="corporate">Corporate Event</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                    How many guests are you anticipating?
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name" type="text">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="notes">
+                    Additional Notes
+                </label>
+                <textarea
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="notes" placeholder="Any special requests or details"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+                <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    Send
+                </button>
+
+            </div>
+            <p id="info" class="text-center text-justify">We use to manage inquiries. By submitting this contact form,
+                We will share your information with our people. We may use your information to correspond with you and
+                send you email marketing communications. For more information, please refer to the Privacy Policy. This
+                site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+            <div class="mt=5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.866174410349!2d76.30516267485899!3d10.027900490078952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dafc4c170d5%3A0xe8c18da1b739ac4!2sLulu%20Fashion%20Store!5e0!3m2!1sen!2sin!4v1725372588335!5m2!1sen!2sin"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mt-4">
+                </iframe>
+                <div class="mt-4">
+                    <p class="flex items-center text-gray-700">
+
+                        <i class="fa-solid fa-phone"></i>+91 9072257503
+                    </p>
+                    <p class="flex items-center text-gray-700 mt-2">
+
+                        <i class="fa-solid fa-envelope"></i>event@gmail.com
+                    </p>
+                    <p class="flex items-center text-gray-700 mt-2">
+
+                        <i class="fa-solid fa-location-dot"></i>Lulu Mall, 2nd floor,Edappally, Kochi 682.
+
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="container mx-auto p-6">
+        <div class="animation2">
+        <h1 id="h1" class="text-3xl font-bold text-center mb-2 text-decoration-underline">Our Recent Events</h1>
+        <p class="take  text-center">Take a look at our recent work's</p>
+        </div>
+    </div>
+    <div class="containerrec">
+        <div class="box">
+            <img id="img1"
+                src="https://rainmakerweddings.com/wp-content/uploads/2023/12/treesa-jacob-e1704692240574.webp" alt="">
+        </div>
+        <div class="box">
+            <img id="img1" src="https://rainmakerweddings.com/wp-content/uploads/2023/11/rain-maker-cover.webp" alt="">
+        </div>
+        <div class="box">
+            <img id="img1" src="https://rainmakerweddings.com/wp-content/uploads/2023/03/VPCoverpic-scaled.webp" alt="">
+        </div>
+        <div class="box">
+            <img id="img1"
+                src="https://rainmakerweddings.com/wp-content/uploads/2023/03/Ashika-ThomasCoverpic-scaled.webp" alt="">
+        </div>
+    </div>
+    <div class="containerrec">
+        <div class="box">
+            <img id="img1"
+                src="https://monicaleavellphoto.com/wp-content/uploads/2022/02/intimate-montana-mountain-wedding-monica-leavell-photo-74.jpg" alt="">
+        </div>
+        <div class="box">
+            <img id="img1" src="https://th.bing.com/th/id/OIP.f5lms1VAM3yOJ6cQEr7JQQHaLG?w=683&h=1024&rs=1&pid=ImgDetMain" alt="">
+        </div>
+        <div class="box">
+            <img id="img1" src="https://eventcracker.com/wp-content/uploads/2020/11/Darlene-50-scaled.jpg" alt="">
+        </div>
+        <div class="box">
+            <img id="img1"
+                src="https://th.bing.com/th/id/OIP.Ih4owfeZHaEoOEbVNzE9BwHaLH?w=1000&h=1500&rs=1&pid=ImgDetMain" alt="">
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
